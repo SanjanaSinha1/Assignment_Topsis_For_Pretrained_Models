@@ -23,15 +23,15 @@ Topsis For Pretrained Text Summarization Models 102013040
 4. Rank accordingly.
 
 ## Project Structure:
-INPUT FILE (input_model_parameters.csv): The CSV file containing value of parameters for differnt models.
-OUTPUT FILE (result.csv): The csv file obtained after applying topsis containing topsis score and rank.
-GRAPHS (Models_vs_Topsis and Models_vs_Parameters): Charts visualising topsis score comparision and comparision of all parameter values for different models respectively.
+*INPUT FILE (input_model_parameters.csv): The CSV file containing value of parameters for differnt models.
+*OUTPUT FILE (result.csv): The csv file obtained after applying topsis containing topsis score and rank.
+*GRAPHS (Models_vs_Topsis and Models_vs_Parameters): Charts visualising topsis score comparision and comparision of all parameter values for different models respectively.
 
 ## Result and Analysis:
 * Topsis Score and Rank obtained in result.csv
   <img width="606" alt="image" src="https://github.com/SanjanaSinha1/Assignment_Topsis_For_Pretrained_Models/assets/100065115/ce17b179-2516-4437-b646-0b76e662e3df">
 
-* Bar Graphs: Visual representation of performance metrics fort each model and its topsis score.
+* Bar Graphs: Visual representation of performance metrics for each model and its topsis score.
 
 ![Models_vs_Parameters](https://github.com/SanjanaSinha1/Assignment_Topsis_For_Pretrained_Models/assets/100065115/7eb2f0e6-1385-4e3a-8cfa-bf8486b51517)
 
