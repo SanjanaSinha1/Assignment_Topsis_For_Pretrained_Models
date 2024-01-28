@@ -7,15 +7,15 @@ Topsis For Pretrained Text Summarization Models 102013040
 ## Description
 1. Different models: BART, PEGASUS, T5, LEAD5, BERT are trained on the 
    same dataset.
-2. They are evaluated on basis of ROUGE Values:\n
+2. They are evaluated on basis of ROUGE Values:<br>
    ROUGE-1 (Unigram Precision, Recall, F1):
    Gives more importance to matching unigrams (individual words) between 
    the generated summary and the reference summary, you may assign higher 
-   weights to ROUGE-1 precision, recall, and F1.\n
+   weights to ROUGE-1 precision, recall, and F1.<br>
    ROUGE-2 (Bigram Precision, Recall, F1):
    Gives more importance to matching bigram between the generated summary 
    and the reference summary, you may assign higher weights to ROUGE-2 
-   precision, recall, and F1.\n
+   precision, recall, and F1.<br>
    ROUGE-L (Longest Common Subsequence):
    ROUGE-L focuses on the longest common subsequence and is considered 
    useful for capturing longer phrases and word sequences. 
@@ -23,8 +23,8 @@ Topsis For Pretrained Text Summarization Models 102013040
 4. Rank accordingly.
 
 ## Project Structure:
-INPUT FILE (input_model_parameters.csv): The CSV file containing value of parameters for differnt models.\n
-OUTPUT FILE (result.csv): The csv file obtained after applying topsis containing topsis score and rank.\n
+INPUT FILE (input_model_parameters.csv): The CSV file containing value of parameters for differnt models.<br>
+OUTPUT FILE (result.csv): The csv file obtained after applying topsis containing topsis score and rank.<br>
 GRAPHS (Models_vs_Topsis and Models_vs_Parameters): Charts visualising topsis score comparision and comparision of all parameter values for different models respectively.
 
 ## Result and Analysis:
