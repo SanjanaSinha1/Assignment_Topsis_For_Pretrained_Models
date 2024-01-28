@@ -10,12 +10,10 @@ Topsis For Pretrained Text Summarization Models 102013040
 2. They are evaluated on basis of ROUGE Values:<br>
    ROUGE-1 (Unigram Precision, Recall, F1):
    Gives more importance to matching unigrams (individual words) between 
-   the generated summary and the reference summary, you may assign higher 
-   weights to ROUGE-1 precision, recall, and F1.<br>
+   the generated summary and the reference summary.<br>
    ROUGE-2 (Bigram Precision, Recall, F1):
    Gives more importance to matching bigram between the generated summary 
-   and the reference summary, you may assign higher weights to ROUGE-2 
-   precision, recall, and F1.<br>
+   and the reference summary.<br>
    ROUGE-L (Longest Common Subsequence):
    ROUGE-L focuses on the longest common subsequence and is considered 
    useful for capturing longer phrases and word sequences. 
